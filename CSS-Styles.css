@@ -198,3 +198,22 @@ input {
 .newUserBttnContainer{
     justify-content: end;
 }
+
+.enterUserName, .enterPassword {
+    height: 30px;
+    text-align: center;
+}
+
+.enterUserName {
+    background-image: url(Imagenes/usuario.png);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.enterPassword {
+    background-image: url(Imagenes/password.png), url(Imagenes/seepassword.png);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 10px center, right center;
+}
