@@ -1,0 +1,200 @@
+* {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.flex {display: flex;}
+.flex-column {flex-direction: column;}
+.flex-row {flex-direction: row;}
+
+.main-index, .main-admin {
+    background-color: darkcyan;
+    padding-bottom: 100px;
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    border-radius: 50px 50px;
+}
+
+.main-index {
+    align-items: center;
+}
+
+.menu-nav, .menu-form, .menu-nav-admin, .menu-post, .newUserForm{
+    background-color: white;
+    width: 70%;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.menu-post, .newUserForm {
+    background: none;
+    align-items: normal !important;
+    justify-content: start;
+    height: 100%;
+}
+
+.menu-nav {
+    border-radius: 20px 20px 0 0;
+}
+.menu-form {
+    border-radius: 0 0 20px 20px ;
+}
+
+.menu a {
+    color: black;
+}
+
+
+
+form {
+    width: 50%;
+    margin: 30px;
+}
+
+.menu-form fieldset { 
+    border: 0; 
+}
+
+a.form-link {
+    color: aqua;
+    font-size: 0.8em;
+}
+
+.btn-submit {
+    background-color: darksalmon;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+
+    height: 50px;
+}
+
+label { 
+    margin-top: 20px; 
+    margin-bottom: 5px; 
+}
+
+input {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.main-admin {
+    align-items: start;
+}
+
+.menu-nav-admin h2 {
+    background-color: darkcyan;
+    border-radius: 50px;
+    color: white;
+    width: 150px;
+    text-align: center;
+}
+
+.menu-nav-admin {
+    width: 20%;
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 30px 0 0 30px;
+    justify-content:start;
+}
+
+.form-admin {
+    width: 60%;
+}
+
+.form-admin fieldset {
+    align-items: center;
+    width: 500px;
+    border: 0;
+}
+
+.form-admin fieldset input{
+    margin: 0;
+}
+
+.form-admin .bttn-search{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.form-admin .txt-search {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.form-admin .bttn-search, .bttn-NewUser{
+    background-color: goldenrod;
+    color: darkcyan;
+}
+
+.form-admin .bttn-DeleteUsers{
+    background-color: salmon;
+    color: white;
+}
+
+.bttn-NewUser, .form-admin .bttn-DeleteUsers{
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.chkbx {
+    width: 30px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.nameLine{
+    border: 10px white;
+}
+
+.userName{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 50px;
+    width: 400px;
+    padding-left: 20px;
+}
+
+
+.pagination {
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: white;
+}
+  
+.pagination a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.pagination a:hover {
+    background-color: lightblue;
+}
+
+.addUserFormFieldset{
+    justify-content: space-evenly;
+    width: 500px;
+    border: 0;
+}
+
+.addUserInput {
+    background-color: gainsboro;
+    border-style: none;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.newUserBttnContainer{
+    justify-content: end;
+}

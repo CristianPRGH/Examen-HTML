@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Els nostres productes de proximitat</title>
+        <meta name="Tienda Online" content="Tienda online de productos de proximidad" charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="Imagenes/favicon_tienda.png">
+        <link rel="stylesheet" href="CSS-Styles.css">
+    </head>
+    <body>
+        <div class="flex flex-row main-admin">
+            <div class="flex flex-column menu-nav-admin">
+                <h2>Usuaris</h2>
+                <h2>Productes</h2>
+                <h2>Posts</h2>
+            </div>
+
+            <div class="flex flex-column menu-post">
+                <form class="flex flex-column form-admin"  action="afegir-usuari.html">
+                    <div class="flex flex-column">
+                        <fieldset class="flex flex-row">
+                            <input class="txt-search" type="search" name="search" placeholder="Cerca">
+                            <button class="bttn-search" type="button"><p>cerca</p></button>
+                        </fieldset>
+                        <fieldset class="flex flex-row">
+                            <input class="bttn-NewUser" type="submit" value="Nou Usuari"></button>
+                            <button class="bttn-DeleteUsers" type="button"><p>Borrar tots</p></button>
+                        </fieldset>
+                        
+                        <fieldset class="flex flex-row">
+                            <input class="chkbx" type="checkbox">
+                            <a href="afegir-usuari.html"><img class="avatar" src="Imagenes/avatar.webp"></a>
+                            <p class="userName">Nombre Apellidos</p>
+                        </fieldset>
+                        <fieldset class="flex flex-row">
+                            <input class="chkbx" type="checkbox">
+                            <a href="afegir-usuari.html"><img class="avatar" src="Imagenes/avatar.webp"></a>
+                            <p class="userName">Nombre Apellidos</p>
+                        </fieldset>
+                        <fieldset class="flex flex-row">
+                            <input class="chkbx" type="checkbox">
+                            <a href="afegir-usuari.html"><img class="avatar" src="Imagenes/avatar.webp"></a>
+                            <p class="userName">Nombre Apellidos</p>
+                        </fieldset>
+                    </div>
+                </form>
+
+                <div class="pagination">
+                    <!-- <a href="#">&laquo;</a> -->
+                    <a href="#">First</a>
+                    <a href="#">Previous</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">Next</a>
+                    <a href="#">Last</a>
+                    <!-- <a href="#">&raquo;</a> -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
